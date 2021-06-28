@@ -22,13 +22,15 @@
 ### 第 1 步: 建立新的專案
 
 ```sh
-create-react-app myapp
+npx create-react-app my-app
 ```
 
-或
+或 
+ 
+ > 要先安裝好create-react-app，指令`npm i -g create-react-app`
 
 ```sh
-npx create-react-app my-app
+create-react-app myapp
 ```
 
 ### 第 2 步: 安裝 ESLint 與 Prettier 模組
