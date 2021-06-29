@@ -20,13 +20,14 @@ function OrderList(props) {
       </div>
       {products.map((product, index) => (
         <ProductItem
+          key={index}
           category={product.category}
           name={product.name}
           image={product.image}
           price={product.price}
           count={counts[index]}
           setCount={(newCount) => {
-            // 先從目前狀態中複制一個新陣列
+            // 先從目前狀態中拷貝一個新陣列, [1,1,1,1]
             const newCounts = [...counts]
 
             // 更新數量陣列自己的索引值，如果小於1則用1來更新
