@@ -54,6 +54,7 @@ function App() {
         {genderList.map((v, i) => {
           return (
             <RadioBox
+              key={i}
               value={v}
               checkedValue={gender}
               setCheckedValue={setGender}
@@ -65,6 +66,7 @@ function App() {
         {degreeList.map((v, i) => {
           return (
             <RadioBox
+              key={i}
               value={v}
               checkedValue={degree}
               setCheckedValue={setDegree}
