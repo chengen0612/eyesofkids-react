@@ -48,7 +48,7 @@ const data = [
     tags: '安卓,小螢幕',
   },
   {
-    id: '6',
+    id: '7',
     picture: 'http://placehold.it/32x32',
     stock: 6,
     name: '紅米',
@@ -56,7 +56,7 @@ const data = [
     tags: '安卓,一般螢幕',
   },
   {
-    id: '7',
+    id: '8',
     picture: 'http://placehold.it/32x32',
     stock: 1,
     name: '黃米',
