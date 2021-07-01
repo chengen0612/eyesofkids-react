@@ -20,12 +20,14 @@ function Parent() {
 
   // 完全模擬componentDidUpdate
   // 注意didMount狀態不能加入相依性陣列中
+  /* eslint-disable */
   useEffect(() => {
     //程式碼寫在這
     if (didMount) {
       console.log('componentDidUpdate', total)
     }
   }, [total])
+  /* eslint-enable */
 
   return (
     <>
