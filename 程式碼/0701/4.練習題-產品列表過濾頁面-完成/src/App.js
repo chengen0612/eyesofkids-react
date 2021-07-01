@@ -82,6 +82,7 @@ function App() {
     let newProducts = [...products]
 
     // 處理勾選標記
+    // 從目前的產品資料的標籤中過濾有包含這個標籤
     if (tags.length > 0) {
       newProducts = [...newProducts].filter((product) => {
         let isFound = false
