@@ -45,10 +45,10 @@ import './index.scss'
 ### 安裝bootstrap的npm模組
 
 ```sh
-yarn add bootstrap
+yarn add bootstrap@4.6.0
 
 // use npm
-npm install --save bootstrap
+npm install --save bootstrap@4.6.0
 ```
 
 ### 全站使用樣式 `index.scss`
