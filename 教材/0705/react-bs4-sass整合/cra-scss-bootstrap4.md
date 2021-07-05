@@ -42,7 +42,7 @@ import './index.scss'
 
 ## 第二部份：CRA加入Bootstrap4 SCSS檔案與導入
 
-### 安裝bootstrap的npm模組
+### 安裝bootstrap的npm模組(以4.6為主)
 
 ```sh
 yarn add bootstrap@4.6.0
