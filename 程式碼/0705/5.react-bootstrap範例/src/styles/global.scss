@@ -1,0 +1,21 @@
+// 變數覆蓋需要在導入Bootstrap的Sass檔案之前
+// 參考Bootstrap的 _variables.scss
+$primary: rgb(228, 23, 211);
+$secondary: rgb(36, 12, 16);
+$success: rgb(61, 215, 199);
+$danger: rgb(187, 114, 18);
+
+// 導入bootstrap所有的樣式與預設變數
+@import '~bootstrap/scss/bootstrap.scss';
+
+// 其它要導入覆蓋掉原本的預設bootstrap樣式要放在這下面
+// 全站都會使用的共同樣式
+html {
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
