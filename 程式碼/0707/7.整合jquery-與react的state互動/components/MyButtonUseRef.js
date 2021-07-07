@@ -18,7 +18,7 @@ function MyButtonUseRef(props) {
 
     // 使用refs
     $(buttonRef.current).on('click', () => {
-      alert(message)
+      alert(data)
     })
   }, [])
 
