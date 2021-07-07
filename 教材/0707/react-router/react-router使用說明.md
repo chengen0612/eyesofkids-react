@@ -24,6 +24,8 @@ npm install react-router-dom
 
 ### 應用的最外層元件必須是Router元件
 
+> 註：一般情況就是App這個元件
+
 Router元件直接由React Router模組導入，一般都是使用BrowserRouter作為Router元件。Router元件必需位於你的應用的最外層(最上層的元件)，例如下面的最基本的套用範例：
 
 以下為新語法(v5.x) - 推薦使用:
